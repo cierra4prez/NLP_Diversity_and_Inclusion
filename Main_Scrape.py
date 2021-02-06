@@ -22,7 +22,10 @@ for url in companies.absolute_links:
         size = r.html.xpath('//*[@id="EIOverviewContainer"]/div/div[1]/ul/li[3]/div', first=True).text
         headquarters = r.html.xpath('//*[@id="EIOverviewContainer"]/div/div[1]/ul/li[2]/div', first=True).text
         industry = r.html.xpath('//*[@id="EIOverviewContainer"]/div/div[1]/ul/li[6]/div', first=True).text
+
+        num_reviews = r.html.xpath('//*[@id="EIOverviewContainer"]/div/div[3]/div[3]/a/text()')
+        num_reviews2 = r.html.xpath('//*[@id="EIOverviewContainer"]/div/div[4]/div[3]/a/text()')
         
-        time.sleep(np.random.choice([x/10 for x in range(7,15)]))
-        print(name, size, headquarters, industry, mission)
+        time.sleep(np.random.choice([x/10 for x in range(6,13)]))
+        print(name, size, headquarters, industry, num_reviews, num_reviews2)
 print('SUCCESS')
