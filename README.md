@@ -45,6 +45,8 @@
 
 <p>The best performing model was the Logistic Regression model with an accuracy score of 59.38% (15% above the null accuracy), and an F-1 score of 68.47%. The model was able to successfully identify 15% of non-inclusive companies (79 companies). Unfortunately, almost 30% of non-inclusive companies are incorrectly identified as inclusive (149 companies).</p>
 
+<p><img src="log_reg_confusion_matrix.png" alt="Logistic Regression confusion matrix"></p>
+
 <h2 id="toc_7">Findings</h2>
 
 <p>While numerous techniques were used to feature engineer and dive deeper into the data, ideal evaluation metrics were tough for this business problem. There are several factors which may contribute to our model&#39;s less-than-stellar performance. One being the timeframe involved. </p>
