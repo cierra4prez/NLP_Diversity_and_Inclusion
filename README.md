@@ -1,6 +1,6 @@
 <h1 id="toc_0">Diversity and Inclusion</h1>
 
-<p>&lt;&lt;photo from glassdoor.com?<img src="images/glassdoor_header" alt="images/glassdoor"></p>
+<p><img src="images/glassdoor_header.png" alt=""></p>
 
 <h2 id="toc_1">Overview</h2>
 
@@ -24,7 +24,7 @@
 
 <p>Several layers of EDA were performed in order to find any immediate trends. One such layer was grouping the diversity and inclusion star rating by company size. The below plot indicates that larger companies tend to have a higher proportion of high ratings, while companies inder 500 employees show lower ratings more prevalently.</p>
 
-<p>IMAGE &lt;&lt;&lt;<img src="images/Star_rating_by_size.png" alt="">Star Rating Grouped by Company Size&gt;&gt;&gt;</p>
+<p><img src="images/Star_rating_by_size.png" alt=""></p>
 
 <p>Another layer was performed on ratings by headquarter location using state. We see that on some states on the plot where you see a higher rate of companies that are note more inclusive or less so. For example, our best performing state is California, whereas unfortunately Georgia seems to be falling behind.</p>
 
